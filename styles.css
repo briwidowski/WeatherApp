@@ -10,9 +10,9 @@ html {
 }
 
 body {
-    text-align: center;
-    height: 100%;
-    background-image: linear-gradient(to left top, #051937, #392c59, #723c72, #ad4d7f, #e56380);
+  text-align: center;
+  height: 100%;
+  background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
 
 input:focus {
@@ -21,26 +21,41 @@ input:focus {
 }
 
 input::placeholder {
-  color: white;
+  color: black;
   opacity: 0.8;
+  letter-spacing: 1px;
 }
 
 button {
   padding: 0.5rem 1.5rem;
+  color: white;
   margin-top: 3%;
   border-radius: 5px;
+  border: none;
+  letter-spacing: 1px;
+  background-image: linear-gradient(to left top, #ff1010, #e74311, #ff9028);
 }
 
 #weatherdiv {
   margin-top: 3%;
   border-radius: 50px;
+  box-shadow: 1px 5px 10px black;
 }
 
 .temperature {
-  font-size: 4rem;
+  font-size: 4.6rem;
 }
 
 .degrees {
   vertical-align: top;
   font-size: 1.4rem;
 }
+
+h4 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
