@@ -40,6 +40,7 @@ button {
   margin-top: 3%;
   border-radius: 50px;
   box-shadow: 1px 5px 10px black;
+  width: 55%;
 }
 
 .temperature {
@@ -59,3 +60,18 @@ p {
   font-size: 1.1rem;
 }
 
+@media only screen and (max-width: 768px) {
+  #weatherdiv {
+    margin-top: 10%;
+    width: 85%;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .temperature {
+    font-size: 3.8rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+}
